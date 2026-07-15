@@ -59,3 +59,10 @@ The manual administrative process faced a significant bottleneck:
 ├── output/                        # Auto-generated directory for output files
 ├── auto_pml_final.py              # Main Python RPA script
 └── README.md                      # Project documentation
+
+## 🌱 Future Scope
+If deployed for wider use cases, this script can be enhanced by:
+
+GUI Integration: Wrapping the script in a lightweight Graphical User Interface (e.g., using Tkinter or Streamlit) so non-technical staff can upload CSVs and generate documents without running terminal commands.
+
+Email Automation: Integrating smtplib to automatically distribute the generated PDF files directly to the respective supervisors' email addresses.
